@@ -12,6 +12,10 @@ stdio.h
 ctype.h
 -
 
+../include/init.h
+global.h
+../include/global.h
+
 ../include/lexer.h
 
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/main.c
@@ -19,6 +23,10 @@ global.h
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/global.h
 lexer.h
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/lexer.h
+
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/init.c
+init.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/init.h
 
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/lexer.c
 global.h

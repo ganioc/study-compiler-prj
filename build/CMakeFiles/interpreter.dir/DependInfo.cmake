@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/main.c" "/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles/interpreter.dir/main.c.o"
+  "/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/init.c" "/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles/interpreter.dir/src/init.c.o"
   "/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/lexer.c" "/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles/interpreter.dir/src/lexer.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")

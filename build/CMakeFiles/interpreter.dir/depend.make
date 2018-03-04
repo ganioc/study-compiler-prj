@@ -5,6 +5,10 @@ CMakeFiles/interpreter.dir/main.c.o: ../include/global.h
 CMakeFiles/interpreter.dir/main.c.o: ../include/lexer.h
 CMakeFiles/interpreter.dir/main.c.o: ../main.c
 
+CMakeFiles/interpreter.dir/src/init.c.o: ../include/global.h
+CMakeFiles/interpreter.dir/src/init.c.o: ../include/init.h
+CMakeFiles/interpreter.dir/src/init.c.o: ../src/init.c
+
 CMakeFiles/interpreter.dir/src/lexer.c.o: ../include/global.h
 CMakeFiles/interpreter.dir/src/lexer.c.o: ../src/lexer.c
 

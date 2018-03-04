@@ -5,6 +5,10 @@ CMakeFiles/interpreter.dir/main.c.o
  ../include/global.h
  ../include/lexer.h
  /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/main.c
+CMakeFiles/interpreter.dir/src/init.c.o
+ ../include/global.h
+ ../include/init.h
+ /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/init.c
 CMakeFiles/interpreter.dir/src/lexer.c.o
  ../include/global.h
  /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/lexer.c

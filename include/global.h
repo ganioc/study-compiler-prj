@@ -14,4 +14,14 @@
 #define ID     259
 #define DONE   260
 
+int tokenval;
+int lineno;
+
+struct entry{
+  char *lexptr;  // symbol table
+  int token;
+};
+
+struct entry *symtable;
+
 #endif
