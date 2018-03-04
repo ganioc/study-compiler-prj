@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/global.h
+stdio.h
+-
+ctype.h
+-
+
+../include/lexer.h
+
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/main.c
+global.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/global.h
+lexer.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/lexer.h
+
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/lexer.c
+global.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/global.h
+
