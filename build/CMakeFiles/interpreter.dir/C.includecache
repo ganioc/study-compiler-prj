@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+../include/emitter.h
+global.h
+../include/global.h
+
+../include/error.h
+global.h
+../include/global.h
+
 ../include/global.h
 stdio.h
 -
@@ -18,17 +26,75 @@ global.h
 
 ../include/lexer.h
 
+../include/parser.h
+global.h
+../include/global.h
+
+../include/symbol.h
+global.h
+../include/global.h
+
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/main.c
 global.h
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/global.h
 lexer.h
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/lexer.h
+init.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/init.h
+parser.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/parser.h
+
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/emitter.c
+emitter.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/emitter.h
+stdio.h
+-
+
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/error.c
+error.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/error.h
+stdio.h
+-
+stdlib.h
+-
 
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/init.c
+symbol.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/symbol.h
 init.h
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/init.h
 
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/lexer.c
 global.h
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/global.h
+stdio.h
+-
+error.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/error.h
+symbol.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/symbol.h
+lexer.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/lexer.h
+
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/parser.c
+parser.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/parser.h
+emitter.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/emitter.h
+error.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/error.h
+lexer.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/lexer.h
+
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/symbol.c
+global.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/global.h
+symbol.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/symbol.h
+string.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/string.h
+error.h
+/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/error.h
+stdio.h
+-
 

@@ -13,8 +13,6 @@ message(STATUS "directory is: ${CMAKE_CURRENT_SOURCE_DIR}")
 
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
-
-
 add_executable(interpreter ${SRCS})
 
 

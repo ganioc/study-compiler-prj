@@ -81,9 +81,57 @@ CMakeFiles/interpreter.dir/main.c.o.provides: CMakeFiles/interpreter.dir/main.c.
 CMakeFiles/interpreter.dir/main.c.o.provides.build: CMakeFiles/interpreter.dir/main.c.o
 
 
+CMakeFiles/interpreter.dir/src/emitter.c.o: CMakeFiles/interpreter.dir/flags.make
+CMakeFiles/interpreter.dir/src/emitter.c.o: ../src/emitter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/interpreter.dir/src/emitter.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/interpreter.dir/src/emitter.c.o   -c /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/emitter.c
+
+CMakeFiles/interpreter.dir/src/emitter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interpreter.dir/src/emitter.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/emitter.c > CMakeFiles/interpreter.dir/src/emitter.c.i
+
+CMakeFiles/interpreter.dir/src/emitter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interpreter.dir/src/emitter.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/emitter.c -o CMakeFiles/interpreter.dir/src/emitter.c.s
+
+CMakeFiles/interpreter.dir/src/emitter.c.o.requires:
+
+.PHONY : CMakeFiles/interpreter.dir/src/emitter.c.o.requires
+
+CMakeFiles/interpreter.dir/src/emitter.c.o.provides: CMakeFiles/interpreter.dir/src/emitter.c.o.requires
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/emitter.c.o.provides.build
+.PHONY : CMakeFiles/interpreter.dir/src/emitter.c.o.provides
+
+CMakeFiles/interpreter.dir/src/emitter.c.o.provides.build: CMakeFiles/interpreter.dir/src/emitter.c.o
+
+
+CMakeFiles/interpreter.dir/src/error.c.o: CMakeFiles/interpreter.dir/flags.make
+CMakeFiles/interpreter.dir/src/error.c.o: ../src/error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/interpreter.dir/src/error.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/interpreter.dir/src/error.c.o   -c /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/error.c
+
+CMakeFiles/interpreter.dir/src/error.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interpreter.dir/src/error.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/error.c > CMakeFiles/interpreter.dir/src/error.c.i
+
+CMakeFiles/interpreter.dir/src/error.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interpreter.dir/src/error.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/error.c -o CMakeFiles/interpreter.dir/src/error.c.s
+
+CMakeFiles/interpreter.dir/src/error.c.o.requires:
+
+.PHONY : CMakeFiles/interpreter.dir/src/error.c.o.requires
+
+CMakeFiles/interpreter.dir/src/error.c.o.provides: CMakeFiles/interpreter.dir/src/error.c.o.requires
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/error.c.o.provides.build
+.PHONY : CMakeFiles/interpreter.dir/src/error.c.o.provides
+
+CMakeFiles/interpreter.dir/src/error.c.o.provides.build: CMakeFiles/interpreter.dir/src/error.c.o
+
+
 CMakeFiles/interpreter.dir/src/init.c.o: CMakeFiles/interpreter.dir/flags.make
 CMakeFiles/interpreter.dir/src/init.c.o: ../src/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/interpreter.dir/src/init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/interpreter.dir/src/init.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/interpreter.dir/src/init.c.o   -c /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/init.c
 
 CMakeFiles/interpreter.dir/src/init.c.i: cmake_force
@@ -107,7 +155,7 @@ CMakeFiles/interpreter.dir/src/init.c.o.provides.build: CMakeFiles/interpreter.d
 
 CMakeFiles/interpreter.dir/src/lexer.c.o: CMakeFiles/interpreter.dir/flags.make
 CMakeFiles/interpreter.dir/src/lexer.c.o: ../src/lexer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/interpreter.dir/src/lexer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/interpreter.dir/src/lexer.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/interpreter.dir/src/lexer.c.o   -c /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/lexer.c
 
 CMakeFiles/interpreter.dir/src/lexer.c.i: cmake_force
@@ -129,21 +177,77 @@ CMakeFiles/interpreter.dir/src/lexer.c.o.provides: CMakeFiles/interpreter.dir/sr
 CMakeFiles/interpreter.dir/src/lexer.c.o.provides.build: CMakeFiles/interpreter.dir/src/lexer.c.o
 
 
+CMakeFiles/interpreter.dir/src/parser.c.o: CMakeFiles/interpreter.dir/flags.make
+CMakeFiles/interpreter.dir/src/parser.c.o: ../src/parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/interpreter.dir/src/parser.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/interpreter.dir/src/parser.c.o   -c /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/parser.c
+
+CMakeFiles/interpreter.dir/src/parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interpreter.dir/src/parser.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/parser.c > CMakeFiles/interpreter.dir/src/parser.c.i
+
+CMakeFiles/interpreter.dir/src/parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interpreter.dir/src/parser.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/parser.c -o CMakeFiles/interpreter.dir/src/parser.c.s
+
+CMakeFiles/interpreter.dir/src/parser.c.o.requires:
+
+.PHONY : CMakeFiles/interpreter.dir/src/parser.c.o.requires
+
+CMakeFiles/interpreter.dir/src/parser.c.o.provides: CMakeFiles/interpreter.dir/src/parser.c.o.requires
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/parser.c.o.provides.build
+.PHONY : CMakeFiles/interpreter.dir/src/parser.c.o.provides
+
+CMakeFiles/interpreter.dir/src/parser.c.o.provides.build: CMakeFiles/interpreter.dir/src/parser.c.o
+
+
+CMakeFiles/interpreter.dir/src/symbol.c.o: CMakeFiles/interpreter.dir/flags.make
+CMakeFiles/interpreter.dir/src/symbol.c.o: ../src/symbol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/interpreter.dir/src/symbol.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/interpreter.dir/src/symbol.c.o   -c /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/symbol.c
+
+CMakeFiles/interpreter.dir/src/symbol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interpreter.dir/src/symbol.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/symbol.c > CMakeFiles/interpreter.dir/src/symbol.c.i
+
+CMakeFiles/interpreter.dir/src/symbol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interpreter.dir/src/symbol.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/symbol.c -o CMakeFiles/interpreter.dir/src/symbol.c.s
+
+CMakeFiles/interpreter.dir/src/symbol.c.o.requires:
+
+.PHONY : CMakeFiles/interpreter.dir/src/symbol.c.o.requires
+
+CMakeFiles/interpreter.dir/src/symbol.c.o.provides: CMakeFiles/interpreter.dir/src/symbol.c.o.requires
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/symbol.c.o.provides.build
+.PHONY : CMakeFiles/interpreter.dir/src/symbol.c.o.provides
+
+CMakeFiles/interpreter.dir/src/symbol.c.o.provides.build: CMakeFiles/interpreter.dir/src/symbol.c.o
+
+
 # Object files for target interpreter
 interpreter_OBJECTS = \
 "CMakeFiles/interpreter.dir/main.c.o" \
+"CMakeFiles/interpreter.dir/src/emitter.c.o" \
+"CMakeFiles/interpreter.dir/src/error.c.o" \
 "CMakeFiles/interpreter.dir/src/init.c.o" \
-"CMakeFiles/interpreter.dir/src/lexer.c.o"
+"CMakeFiles/interpreter.dir/src/lexer.c.o" \
+"CMakeFiles/interpreter.dir/src/parser.c.o" \
+"CMakeFiles/interpreter.dir/src/symbol.c.o"
 
 # External object files for target interpreter
 interpreter_EXTERNAL_OBJECTS =
 
 interpreter: CMakeFiles/interpreter.dir/main.c.o
+interpreter: CMakeFiles/interpreter.dir/src/emitter.c.o
+interpreter: CMakeFiles/interpreter.dir/src/error.c.o
 interpreter: CMakeFiles/interpreter.dir/src/init.c.o
 interpreter: CMakeFiles/interpreter.dir/src/lexer.c.o
+interpreter: CMakeFiles/interpreter.dir/src/parser.c.o
+interpreter: CMakeFiles/interpreter.dir/src/symbol.c.o
 interpreter: CMakeFiles/interpreter.dir/build.make
 interpreter: CMakeFiles/interpreter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable interpreter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable interpreter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interpreter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,8 +256,12 @@ CMakeFiles/interpreter.dir/build: interpreter
 .PHONY : CMakeFiles/interpreter.dir/build
 
 CMakeFiles/interpreter.dir/requires: CMakeFiles/interpreter.dir/main.c.o.requires
+CMakeFiles/interpreter.dir/requires: CMakeFiles/interpreter.dir/src/emitter.c.o.requires
+CMakeFiles/interpreter.dir/requires: CMakeFiles/interpreter.dir/src/error.c.o.requires
 CMakeFiles/interpreter.dir/requires: CMakeFiles/interpreter.dir/src/init.c.o.requires
 CMakeFiles/interpreter.dir/requires: CMakeFiles/interpreter.dir/src/lexer.c.o.requires
+CMakeFiles/interpreter.dir/requires: CMakeFiles/interpreter.dir/src/parser.c.o.requires
+CMakeFiles/interpreter.dir/requires: CMakeFiles/interpreter.dir/src/symbol.c.o.requires
 
 .PHONY : CMakeFiles/interpreter.dir/requires
 

@@ -150,6 +150,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/main.c.s
 .PHONY : main.c.s
 
+src/emitter.o: src/emitter.c.o
+
+.PHONY : src/emitter.o
+
+# target to build an object file
+src/emitter.c.o:
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/emitter.c.o
+.PHONY : src/emitter.c.o
+
+src/emitter.i: src/emitter.c.i
+
+.PHONY : src/emitter.i
+
+# target to preprocess a source file
+src/emitter.c.i:
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/emitter.c.i
+.PHONY : src/emitter.c.i
+
+src/emitter.s: src/emitter.c.s
+
+.PHONY : src/emitter.s
+
+# target to generate assembly for a file
+src/emitter.c.s:
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/emitter.c.s
+.PHONY : src/emitter.c.s
+
+src/error.o: src/error.c.o
+
+.PHONY : src/error.o
+
+# target to build an object file
+src/error.c.o:
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/error.c.o
+.PHONY : src/error.c.o
+
+src/error.i: src/error.c.i
+
+.PHONY : src/error.i
+
+# target to preprocess a source file
+src/error.c.i:
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/error.c.i
+.PHONY : src/error.c.i
+
+src/error.s: src/error.c.s
+
+.PHONY : src/error.s
+
+# target to generate assembly for a file
+src/error.c.s:
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/error.c.s
+.PHONY : src/error.c.s
+
 src/init.o: src/init.c.o
 
 .PHONY : src/init.o
@@ -204,6 +258,60 @@ src/lexer.c.s:
 	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/lexer.c.s
 .PHONY : src/lexer.c.s
 
+src/parser.o: src/parser.c.o
+
+.PHONY : src/parser.o
+
+# target to build an object file
+src/parser.c.o:
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/parser.c.o
+.PHONY : src/parser.c.o
+
+src/parser.i: src/parser.c.i
+
+.PHONY : src/parser.i
+
+# target to preprocess a source file
+src/parser.c.i:
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/parser.c.i
+.PHONY : src/parser.c.i
+
+src/parser.s: src/parser.c.s
+
+.PHONY : src/parser.s
+
+# target to generate assembly for a file
+src/parser.c.s:
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/parser.c.s
+.PHONY : src/parser.c.s
+
+src/symbol.o: src/symbol.c.o
+
+.PHONY : src/symbol.o
+
+# target to build an object file
+src/symbol.c.o:
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/symbol.c.o
+.PHONY : src/symbol.c.o
+
+src/symbol.i: src/symbol.c.i
+
+.PHONY : src/symbol.i
+
+# target to preprocess a source file
+src/symbol.c.i:
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/symbol.c.i
+.PHONY : src/symbol.c.i
+
+src/symbol.s: src/symbol.c.s
+
+.PHONY : src/symbol.s
+
+# target to generate assembly for a file
+src/symbol.c.s:
+	$(MAKE) -f CMakeFiles/interpreter.dir/build.make CMakeFiles/interpreter.dir/src/symbol.c.s
+.PHONY : src/symbol.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +324,24 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/emitter.o"
+	@echo "... src/emitter.i"
+	@echo "... src/emitter.s"
+	@echo "... src/error.o"
+	@echo "... src/error.i"
+	@echo "... src/error.s"
 	@echo "... src/init.o"
 	@echo "... src/init.i"
 	@echo "... src/init.s"
 	@echo "... src/lexer.o"
 	@echo "... src/lexer.i"
 	@echo "... src/lexer.s"
+	@echo "... src/parser.o"
+	@echo "... src/parser.i"
+	@echo "... src/parser.s"
+	@echo "... src/symbol.o"
+	@echo "... src/symbol.i"
+	@echo "... src/symbol.s"
 .PHONY : help
 
 

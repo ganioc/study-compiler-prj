@@ -2,5 +2,5 @@
 #define _LEXER_H
 
 int lexer_help();
-
+int lexan();
 #endif
