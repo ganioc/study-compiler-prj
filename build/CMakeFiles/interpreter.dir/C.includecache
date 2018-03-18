@@ -75,6 +75,8 @@ symbol.h
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/symbol.h
 lexer.h
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/lexer.h
+stdlib.h
+-
 
 /Users/junyang/Documents/yangjun/project/compiler/2.9.8-interpreter/src/parser.c
 parser.h

@@ -12,6 +12,7 @@ void expr();
 
 void factor()
 {
+  printf("=>factor %d\n", lookahead);
   switch (lookahead)
   {
   case '(':
@@ -27,24 +28,34 @@ void factor()
     emit(ID, tokenval);
     match(ID);
     break;
+  case NONE:
+    break;
   default:
     error("syntax error");
   }
 }
+// match current, then lexan() the next
 void match(int t)
 {
-  printf("match:%c\n", t);
+  printf("=>match:%d\n", t);
+
   if (lookahead == t)
+  {
     lookahead = lexan();
+  }
   else
   {
     error("syntax error: match fail");
   }
 }
+// get a terminator
+//;
 void term()
 {
   int t;
+  printf("=>term\n");
   factor();
+
   while (1)
   {
     switch (lookahead)
@@ -55,6 +66,7 @@ void term()
     case MOD:
       t = lookahead;
       match(lookahead);
+      printf("lookahead is %d\n", lookahead);
       factor();
       emit(t, NONE);
       continue;
@@ -63,11 +75,13 @@ void term()
     }
   }
 }
-
+// expression
 void expr()
 {
   int t;
+  printf("=>expr\n");
   term();
+
   while (1)
   {
     switch (lookahead)
@@ -87,7 +101,11 @@ void expr()
 
 void parse()
 {
+  printf("\n-----Start parsing-----\n");
   lookahead = lexan();
+
+  printf("parse => get 1st lookahead type: %d\n", lookahead);
+
   while (lookahead != DONE)
   {
     expr();

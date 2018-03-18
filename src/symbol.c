@@ -15,6 +15,8 @@ int lastchar = -1;
 struct entry symtable[SYMMAX];
 int lastentry = 0;
 
+void printSymbols();
+
 int lookup(char s[])
 {
   int p;
@@ -33,6 +35,8 @@ int insert(char s[], int tok)
   int len;
   len = strlen(s);
 
+  printf("\n--------insert---------\n");
+
   if (lastentry + 1 >= SYMMAX)
   {
     error("symbol table is full");
@@ -49,10 +53,10 @@ int insert(char s[], int tok)
   lastchar = lastchar + len + 1;
   strcpy(symtable[lastentry].lexptr, s);
 
-  printf("symtable, %d %s lastentry:%d\n",
-         symtable[lastentry].token,
-         symtable[lastentry].lexptr,
-         lastentry);
+  printf("symtable, %d %s   lastentry:%d\n", symtable[lastentry].token, symtable[lastentry].lexptr, lastentry);
+
+  printSymbols();
+
   return lastentry;
 }
 void printSymbols()

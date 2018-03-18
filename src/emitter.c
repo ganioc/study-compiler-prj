@@ -1,12 +1,13 @@
 #include "emitter.h"
 #include <stdio.h>
 
-extern struct entry *symtable;
+extern struct entry symtable[];
 
 // print it out
 
 void emit(int t, int tval)
 {
+  printf("emit ===>");
   switch (t)
   {
   case '+':
@@ -30,4 +31,5 @@ void emit(int t, int tval)
   default:
     printf("token %d, tokenval %d\n", t, tval);
   }
+  // printf("=========>\n");
 }
